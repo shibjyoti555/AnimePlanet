@@ -11,7 +11,7 @@
 
 >NO sending anything related to phobias/are disturbing
 
-### Anyone violating the above rules will be forgiven the first time, but will be suspended from messaging for a maximum of 6 hours, considering the *illegality* of their deeds
+### Any chaos in the group will lead to suspension of all members from messaging.
 
 # I aggree with the rules and want to [join](https://chat.whatsapp.com/JvQ85ESwYwxD1p8n2OoNFR) "♥️Anime Planet♥️"
 
