@@ -83,75 +83,173 @@
     <sub>Ban master and the one with the most authority- DEBADITYA</sub>
 </body>
 </html> -->
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 10px;
-            padding: 0;
-        }
+    <head>
+        <title>♥️Anime Planet♥️ Whatsapp group</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 10px;
+                padding: 0;
+                background-color: #f0f5f9; /* Cool blue background color */
+            }
 
-        h2 {
+            h2 {
             color: #333; /* Neutral color for headings */
             font-size: 24px;
-        }
+            }
 
-        ul {
+            ul {
             list-style-type: disc;
             margin-left: 20px;
             font-size: 18px;
-        }
+            }
 
-        p {
+            p {
             margin: 10px 0;
             font-size: 20px;
-            color: #ff6969; /* Bright pink background for paragraphs */
-            /* color: #fff; White text color for paragraphs */
+            color: #4da2e1; /* Cool blue text color for paragraphs */
             padding: 10px;
-        }
+            }
 
-        sub {
+            sub {
             font-size: 16px; /* Smaller font size for sub-elements */
             color: #777; /* Lighter color for sub-elements */
-        }
+            }
 
-        img {
+            img {
             max-width: 100%;
             height: auto;
-        }
+            }
 
-        a {
+            a {
             text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <img src="ap.jpg" alt="The ♥️Anime Planet♥️">
-    <h2>♥️Anime Planet♥️ Whatsapp group</h2>
+            }
 
-    <h2>The rules of the group</h2>
+            .star {
+            text-decoration: underline;
+            }
 
-    <ul>
-        <li>No spoilers</li>
-        <li>No slangs</li>
-        <li>No spamming</li>
-        <li>NO sending anything related to phobias/are disturbing</li>
-    </ul>
+            .checkbox-container {
+            margin: 20px 0;
+            }
 
-    <p>Any chaos in the group will lead to suspension of all members from messaging.</p>
+            #agree-checkbox {
+            display: inline-block;
+            margin-right: 10px;
+            }
 
-    <p>I agree with the rules and want to <a href="https://chat.whatsapp.com/JvQ85ESwYwxD1p8n2OoNFR">join</a> "♥️Anime Planet♥️"</p>
+            #submit-button {
+            font-size: 20px;
+            padding: 10px 20px;
+            background-color: #4da2e1; /* Cool blue background color for the button */
+            color: #fff; /* White text color for the button */
+            border: none;
+            cursor: pointer;
+            }
 
-    <p>For those who can't find the invite link, it is up there. Press the "join"</p>
+            #submit-button:disabled {
+            opacity: 0.5; /* Disable the button when the checkbox is not checked */
+            }
+        </style>
+        <!-- <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    }
 
-    <sub>Creators: Orfious Maulik and Siddharth Routh</sub>
+    h2 {
+    color: #333; /* Neutral color for headings */
+    font-size: 24px;
+    }
 
-    <br>
+    ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 18px;
+    }
 
-    <sub>Ban master and the one with the most authority: DEBADITYA</sub>
-</body>
+    p {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #ff6969; /* Bright pink background for paragraphs */
+    /* color: #fff; White text color for paragraphs */
+    padding: 10px;
+    }
+
+    sub {
+    font-size: 16px; /* Smaller font size for sub-elements */
+    color: #777; /* Lighter color for sub-elements */
+    }
+
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+
+    a {
+    text-decoration: none;
+    }
+
+    .star {
+    text-decoration: underline;
+    }
+
+    .checkbox-container {
+    margin: 20px 0;
+    }
+
+    #agree-checkbox {
+    display: inline-block;
+    margin-right: 10px;
+    }
+
+    #submit-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #333; /* Neutral color for the button */
+    color: #fff; /* White text color for the button */
+    border: none;
+    cursor: pointer;
+    }
+
+    #submit-button:disabled {
+    opacity: 0.5; /* Disable the button when the checkbox is not checked */
+    }
+    </style> -->
+    </head>
+    <body>
+        <img src="ap.jpg" alt="The ♥️Anime Planet♥️">
+        <h2>♥️Anime Planet♥️ Whatsapp group</h2>
+        <h2>The rules of the group</h2>
+        <ul>
+            <li>No spoilers</li>
+            <li>No slangs*</li>
+            <li>No spamming</li>
+            <li>NSFW stuff has to be set to view once</li>
+        </ul>
+        <p>Any chaos in the group will lead to suspension of all members from messaging.</p>
+        <div class="checkbox-container">
+            <input type="checkbox" id="agree-checkbox">
+            <label for="agree-checkbox">I agree with the rules</label>
+        </div>
+        <button id="submit-button" disabled>Join ♥️Anime Planet♥️ Whatsapp group</button>
+        <br>
+        <script>
+    const checkbox = document.getElementById("agree-checkbox");
+    const submitButton = document.getElementById("submit-button");
+
+    checkbox.addEventListener("change", function () {
+    submitButton.disabled = !checkbox.checked;
+    });
+        </script>
+        <br>
+        <br>
+        <sub class="star">*Slangs intended to hurt a person or a group</sub>
+        <br>
+        <sub>Creators: Orfious Maulik and Siddharth Routh</sub>
+        <br>
+        <sub>Ban master and the one with the most authority: DEBADITYA</sub>
+    </body>
 </html>
